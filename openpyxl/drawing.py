@@ -442,4 +442,5 @@ class Picture(object):
         size = newsize
         self.drawing.width = size[0]
         self.drawing.height = size[1]
-        self.drawing.top=46
+        self.drawing.left = self.drawing.coordinates[0][0]
+        self.drawing.top = self.drawing.coordinates[0][1]
